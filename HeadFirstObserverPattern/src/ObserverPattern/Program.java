@@ -10,10 +10,6 @@ public class Program {
 		wd.NotifyObservers();
 		wd.setMeasurements(82, 70, 29f);
 		wd.NotifyObservers();
-		//New observer
-		StatisticsDisplay sd = new StatisticsDisplay(wd);
-		wd.setMeasurements(78, 90, 29.2f);
-		wd.NotifyObservers();
 	}
 
 }
